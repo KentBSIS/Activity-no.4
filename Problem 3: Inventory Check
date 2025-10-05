@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-    int lemons = 0, sugar = 0;
-    cout<<"Lemons: ";
+    int lemons=0, sugar=0;
+    cout<<"How many lemons do you have?: ";
     cin>>lemons;
-    cout<<"Sugar: ";
+    cout<<"How many sugar do you have?: ";
     cin>>sugar;
-    if(lemons <= 0 || sugar <= 0){
+    if(lemons<=0||sugar<=0){
         cout<<"You can't make lemonade!"<<endl;
     } 
     else {
