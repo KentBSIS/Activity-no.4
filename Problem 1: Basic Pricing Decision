@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(){
     float money = 0;
     cout<<"Enter your money: ";
     cin>>money;
-    if (money >= 1.0) {
+    if(money >= 1.0){
         cout<<"Enjoy your lemonade!"<<endl;
     }
     else{
