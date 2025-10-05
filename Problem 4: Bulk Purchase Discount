@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main(){
     int cups=0;
     cout<<"How many cups do you want?";
