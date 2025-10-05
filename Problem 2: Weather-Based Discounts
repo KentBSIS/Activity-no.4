@@ -4,16 +4,13 @@ using namespace std;
 int main() 
 {
     int temp = 0;
-    cout << "Enter today's temperature: ";
-    cin >> temp;
-
-    if (temp >= 30) {
-        cout << "Lemonade costs $0.80." << endl;
+    cout<<"Enter today's temperature: ";
+    cin>>temp;
+    if (temp >= 30){
+        cout<<"Lemonade costs $0.80."<<endl;
     } 
     else {
-        cout << "Lemonade costs $1.00." << endl;
+        cout<<"Lemonade costs $1.00."<<endl;
     }
-
-
     return 0;
 }
